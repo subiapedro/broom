@@ -1,0 +1,73 @@
+/*TABLETS*/
+
+@media screen and (max-width: 760px) {
+    .header-mobile {
+        display: inline;
+    }
+    header.cabecera {
+        display: none;
+    }
+    .msgdialog {
+        width: 400px;
+    }
+}
+
+
+/*MOBILES PANTALLA 480PX*/
+
+@media screen and (max-width: 480px) {
+    .header-mobile {
+        display: inline;
+    }
+    header.cabecera {
+        display: none;
+    }
+    #descripcion {
+        font-size: 24px;
+    }
+    .msgdialog {
+        width: 350px;
+    }
+    .quads {
+        margin-bottom: 10px;
+    }
+    #phonelogo {
+        width: 300px;
+    }
+    form {
+        width: 95%;
+    }
+}
+
+
+/*MOBILES PATALLAS 380*/
+
+@media screen and (max-width: 380px) {
+    .header-mobile {
+        display: inline;
+    }
+    header.cabecera {
+        display: none;
+    }
+    .msgdialog {
+        width: 320px;
+    }
+}
+
+
+/*MOBILES PATALLAS 320*/
+
+@media screen and (max-width: 320px) {
+    .header-mobile {
+        display: inline;
+    }
+    header.cabecera {
+        display: none;
+    }
+    .msgdialog {
+        width: 280px;
+    }
+    #phonelogo {
+        width: 270px;
+    }
+}
